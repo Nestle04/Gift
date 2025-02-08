@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сюрприз!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <audio id="bgMusic" autoplay loop>
+        <source src="birthday.mp3" type="audio/mpeg">
+        Ваш браузер не поддерживает аудио.
+    </audio>
+    <img style="height: 500px;position: absolute;top: 0;left: 0; border-radius: 50%;" src="5276315629365881028.jpg" alt="">
+    <img src="5edn.gif" style="position: absolute;bottom: 0; right: 0; width: 300px;" alt="">
+    <div style="color: black; position: absolute; font-size: 30px; font-weight: 800; left: 80px; top: 530px;"> НА КОЛЕНИ!</div>
+    <img src="kiss-26.gif" style="position: absolute; top: 0; right: 0;" alt="">
+    <div class="congr hide" style="width: 520px; height: 600px; position: absolute;background-color: white; z-index: 2; padding: 20px;font-size: 18px; font-weight: 600; border-radius: 20px;">Лизка, поздравляю тебя <br><br> <div style="background-color: #e28d8d;">С ДНЕМ РОЖДЕНИЯ!!!!</div><br> <br> <br>Всегда восхищалась тому, как в такой утонченной девочке может быть столько сил, я желаю тебе продолжать рвать и метать, ты просто невероятная, самая потрясающая на этой планете. Я хочу чтоб этот день стал для тебя поводом для обдумывания своих дальнейших действий и планов, я знаю точно, что ты получишь свое, это лишь вопрос времени и как быстро люди вокруг тебя сдадуться перед тобой, с каждым годом ты становишься только сильнее и этот новый этап даст тебе только новые силы. Вперед, красотка, главное не останавливаться. <br> <br>Оставайся преданной сама себе, ведь ты первый человек, которому на саму себя не должно быть все равно, постоянно стремись только к самому лучшему, задавайся себе вопросами что тебе нравится, а что не нравится, что я хотела бы измненить, а что оставить. Шаг за шагов и в итоге ты сама выточишь ту жизнь, которая так давно сидит у тебя в голове. Я тебя люблю и эти слова как никогда искренние.</div>
+    <div id="giftBox" class="box-container" onclick="openGift()">
+        <div class="lid"><img src="snapbg.ai_1739048517813.png" style="width: 150px;" alt=""></div>
+        <div class="box"><div style="height: 100%;width: 20px; background-color: #b01010;"></div></div>
+    </div>
+    <h2>Введи пароль, чтобы открыть сюрприз</h2>
+    <input type="password" id="password" placeholder="Шо ты, когда родилась?">
+    <button class="submit" onclick="checkPassword()">Подтвердить</button>
+    
+    <script src="main.js"></script>
+</body>
+</html>
